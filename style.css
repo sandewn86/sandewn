@@ -76,24 +76,15 @@ img{
 
 .flex-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  
+  grid-template-columns:1fr 1fr 1fr;
+  align-items: flex-start; /* Centers items vertically */
 
 }
 
 .flex-container > div {
-
- 
-
   font-size: 30px;
-  text-align: center;}
+  text-align: center; /* Centers text horizontally */
 
-  .five{
-    justify-content: center;
-    align-content: center;
-  }
+}
 
-  .seven{
-    align-content: flex-end;
-    justify-content: center;
-  }
+
