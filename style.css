@@ -1,0 +1,99 @@
+body {
+
+  background-image: url("star2.gif");
+  background-size:contain
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: -3px 2px black;
+  font-size: 100px;
+  font-family:monospace ;
+  font-weight: bolder;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  text-shadow: -3px 2px black;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+a{
+  color:rgb(153, 0, 255);
+
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.fm {
+  text-align: center;
+}
+
+.fm img {
+  width: 275px;
+  height: 275px;
+  display: inline-block;
+} 
+
+.center {
+  text-align: center; /* Options: left, center, right */
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-family: monospace;
+  font-weight: bold;}
+
+.purple {
+  text-align: center; /* Options: left, center, right */
+  font-size: 50px;
+  color: rgb(153, 0, 255);
+  text-align: center;
+  text-shadow: 1px 1px black;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+img{
+  width: 400px
+}
+
+
+.audio-container {
+  text-align: center;
+}
+
+.audio-container2 {
+  text-align: center;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+
+}
+
+.flex-container > div {
+
+ 
+
+  font-size: 30px;
+  text-align: center;}
+
+  .five{
+    justify-content: center;
+    align-content: center;
+  }
+
+  .seven{
+    align-content: flex-end;
+    justify-content: center;
+  }
